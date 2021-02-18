@@ -4,14 +4,50 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="colorpicker.css">
     <title>Colorpicker</title>
 </head>
 <body>
     <input type="color" id="color_input">
+
+
     <div>
-    <div id="txt1"></div>
-    <div id="txt2"></div>
-    <div id="txt3"></div>   
+        <select id="filter">
+            <option value="analogous">Analogous</option>
+            <option value="monokramatisk">Monokramatisk</option>
+            <option value="komplementaer">Komplementær</option>
+            <option value="triad">Triad</option>
+            <option value="compound">Compound</option>
+            <option value="shades">Shades</option>
+        </select>
+    </div>
+<div id="boxes">
+    <div class="box1">
+        <div id="txt1_1"></div>
+        <div id="txt1_2"></div>
+        <div id="txt1_3"></div> 
+    </div>
+    <div class="box2"> 
+        <div id="txt2_1"></div>
+        <div id="txt2_2"></div>
+        <div id="txt2_3"></div>
+    </div>
+    <div class="box3"> 
+        <div id="txt3_1"></div>
+        <div id="txt3_2"></div>
+        <div id="txt3_3"></div>
+    </div>
+    <div class="box4">
+        <div id="txt4_1"></div>
+        <div id="txt4_2"></div>
+        <div id="txt4_3"></div> 
+    </div>
+    <div class="box5">
+        <div id="txt5_1"></div>
+        <div id="txt5_2"></div>
+        <div id="txt5_3"></div> 
+    </div>
+    </div>
 </div>
     <script src="colorpicker.js"></script>  </script>
 </body>
